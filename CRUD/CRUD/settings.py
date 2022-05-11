@@ -154,7 +154,7 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
 
-    'social_core.backends.google.GoogleOAuth2'
+    'social_core.backends.google.GoogleOAuth2',
     'social_core.backends.facebook.FacebookOAuth2'
 
 ]
@@ -180,8 +180,8 @@ LOGIN_URL = 'login'
 
 
 #Dados obtidos do console do google
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'COLOQUE-KEY'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'COLOQUE-SECRET'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '245241529454-1sdruc38s4eo6oisl4hm9ckjbhqcokvf.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
 
 SOCIAL_AUTH_FACEBOOK_KEY = "1716355988718308"  #Colocar ID obtido no aplicativo do facebook
 SOCIAL_AUTH_FACEBOOK_SECRET = "dcd7562f75fa588dda8dd0d61b13b01d" #Colocar SECRET obtido no aplicativo do facebook
